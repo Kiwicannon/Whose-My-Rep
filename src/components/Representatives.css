@@ -1,0 +1,19 @@
+.rep-header {
+    display: flex;
+    justify-content: space-between;
+    width: 65%;
+}
+.rep-header h3 {
+    width: 40%;
+}
+.list-header {
+    color: hsl(203, 83%, 68%);
+}
+.rep-list {
+    display: flex;
+    justify-content: space-between;
+    width: 65%;
+}
+.rep-list h3 {
+    width: 40%;
+}

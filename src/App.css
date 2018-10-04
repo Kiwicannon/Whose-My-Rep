@@ -2,7 +2,9 @@
   padding: 20px 0px 0px 25px;
 }
 
-.App h1{
+.App-title{
   color: #47A5E7;
-  /* padding: 20px 0px 0px 25px; */
+}
+.App-header hr {
+  margin-top: 40px;
 }
