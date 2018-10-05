@@ -77,7 +77,7 @@ export default class Representatives extends Component {
 
                 <div className='rep-list-and-data'>
                     <div className='reps'>
-                        <h2>List / <span className='list-header'>{ type }</span> </h2> 
+                        <h2>List / <span className='list-header'>{ type && state ? type : ''}</span> </h2> 
                             <span className='rep-header'>
                                 <h3>Name</h3>
                                 <h3>Party</h3>
