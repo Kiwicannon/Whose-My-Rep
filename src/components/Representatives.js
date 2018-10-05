@@ -40,13 +40,14 @@ export default class Representatives extends Component {
                     })
                 })
                 
-            }
-            axios.get(`http://localhost:3000/senators/${this.state.state}`)
-            .then(( res ) => {
-                this.setState({
-                    representatives: res.data.results
+            } else {
+                axios.get(`http://localhost:3000/senators/${this.state.state}`)
+                .then(( res ) => {
+                    this.setState({
+                        representatives: res.data.results
+                    })
                 })
-            })
+            }
     }
 
     render() {
