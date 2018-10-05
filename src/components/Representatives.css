@@ -1,10 +1,14 @@
 .rep-header {
     display: flex;
     justify-content: space-between;
-    width: 65%;
+}
+.rep-header {
+    background-color: lightgray;
+
 }
 .rep-header h3 {
-    width: 40%;
+    padding-right: 32px;
+    padding-left: 10px;
 }
 .list-header {
     color: hsl(203, 83%, 68%);
@@ -12,8 +16,34 @@
 .rep-list {
     display: flex;
     justify-content: space-between;
-    width: 65%;
 }
-.rep-list h3 {
-    width: 40%;
+.rep-list h4 {
+    padding-left: 10px;
+}
+
+.rep-list-and-data{
+    display: flex;
+    justify-content: space-between;
+}
+.rep-list-and-data div{
+    width: 48%;
+}
+.rep-info {
+    display: flex;
+    flex-direction: column;
+}
+.rep-info span {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    font-size: 1.17em;
+    font-weight: bold;
+    background-color: lightgrey;
+    margin-bottom: 14px;
+    padding-left: 14px;
+    color: grey;
+}
+.rep-info h1 {
+    margin-bottom: 10px;
 }
